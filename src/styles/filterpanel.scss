@@ -1,0 +1,49 @@
+.filter-panel {
+    background-color: $secondary-bg;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+    max-width: 200px;
+    min-width: 200px;
+  
+    .filter-header {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 5px;
+    }
+  }
+  
+  .filter-card {
+    padding: 5px;
+    .filters-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px;
+    }
+    .filter-sub-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .text {
+        font-size: 14px;
+        border-bottom: 1px solid $header-bg;
+        padding: 5px 30px;
+      }
+    }
+  
+    .filter-item {
+      background: rgba($filter-item-bg, 0.5);
+      color: $filter-item-text;
+      padding: 5px 15px;
+      border-radius: 3px;
+      margin: 5px;
+      cursor: pointer;
+    }
+  
+    .filter-item.selected {
+      background-color: $filter-item-bg;
+    }
+  }
+  

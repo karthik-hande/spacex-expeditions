@@ -1,0 +1,34 @@
+.launch-card {
+    background: $secondary-bg;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    .thumbnail-container {
+      display: flex;
+      justify-content: center;
+      background: $primary-bg;
+      .thumbnail {
+        height: 130px;
+        width: 130px;
+      }
+    }
+  
+    .info-container {
+      .info {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+        font-size: 14px;
+        font-weight: 500;
+        color: $secondary-bg-text;
+        .value {
+          color: rgba($card-title-color, 0.7);
+        }
+      }
+      .main {
+        color: $card-title-color;
+        font-weight: 600;
+      }
+    }
+  }
+  
