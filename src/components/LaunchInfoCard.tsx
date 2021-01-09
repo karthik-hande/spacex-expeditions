@@ -22,7 +22,7 @@ const LaunchInfoCard: React.FC<IProps> = ({ launch }) => {
           className="thumbnail"
           src={launch.links.mission_patch_small}
           loading="lazy"
-          alt="Rocket Image"
+          alt="Rocket"
         />
       </div>
       <div className="info-container">

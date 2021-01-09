@@ -17,7 +17,7 @@ function useQuery() {
 
 const DashboardPage: React.FC<IProps> = () => {
   const rootStore = useContext(RootStoreContext);
-  const { launches, loadingLaunchData, loadLaunchData } = rootStore.spacexStore;
+  const { launches, loadingLaunchData } = rootStore.spacexStore;
 
   let query = useQuery();
 

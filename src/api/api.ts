@@ -25,6 +25,8 @@ const Launches = {
     axios.get("/launches", { params: params }).then(responseBody),
 };
 
-export default {
-  Launches,
-};
+const apiExp = {
+  Launches
+}
+
+export default apiExp;
