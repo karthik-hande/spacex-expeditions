@@ -2,15 +2,17 @@
     background-color: $secondary-bg;
     display: flex;
     flex-direction: column;
-    padding: 5px;
     border-radius: 3px;
     max-width: 200px;
     min-width: 200px;
   
     .filter-header {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 600;
-      padding: 5px;
+      padding: 5px 15px;
+      box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+      display: flex;
+      justify-content: center;
     }
   }
   
@@ -39,7 +41,10 @@
       padding: 5px 15px;
       border-radius: 3px;
       margin: 5px;
-      cursor: pointer;
+      cursor: pointer; 
+      &:hover {
+        background: rgba($filter-item-bg, 0.9);
+      }
     }
   
     .filter-item.selected {
